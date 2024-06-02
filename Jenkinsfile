@@ -7,9 +7,9 @@ pipeline{
             }
             post{
             success{
-                mailto: "sylvester25r@gmail.com"
-                subject: "Build Status Email "
-                body: "Body was successful!"
+                mail to: "sylvester25r@gmail.com",
+                subject: "Build Status Email",
+                body: "Build was successful!"
             }
                 }   
             }
